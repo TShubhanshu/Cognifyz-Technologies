@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 8px 8px 0 0;
+}
+
+.introduction, .highlights, .qualifications, .cta, .footer {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.introduction h2, .highlights h2, .qualifications h2 {
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.highlights ul, .qualifications ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.cta {
+    text-align: center;
+}
+
+.apply-button {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #218838;
+}
+
+.footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #0056b3;
+}
